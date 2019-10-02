@@ -206,7 +206,7 @@ viewController.metadata.append(AVMetadataObject.ObjectType.qr)
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'BarcodeScanner'
+pod 'BarcodeScanner-custom', :git => 'https://github.com/adong666666/BarCodeScanner-custom.git', :tag => '5.1.0'
 ```
 
 Don't forget to set a `Privacy - Camera Usage Description` in your Info.plist file, else the app will crash with a SIGBART. 
@@ -218,7 +218,7 @@ In order to quickly try the demo project of a **BarcodeScanner** just run
 To install just write into your Cartfile:
 
 ```ruby
-github "hyperoslo/BarcodeScanner"
+github "adong666666/BarcodeScanner-custom"
 ```
 
 To install **BarcodeScanner** manually just download and drop `Sources` and
